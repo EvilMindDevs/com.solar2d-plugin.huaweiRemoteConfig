@@ -1,0 +1,10 @@
+repositories {
+    maven {
+        url "https://developer.huawei.com/repo/"
+    }
+}
+
+dependencies {
+	implementation 'com.huawei.hms:hianalytics:5.0.3.300'
+    implementation 'com.huawei.agconnect:agconnect-remoteconfig:1.4.1.300'
+}
